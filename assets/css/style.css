@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    border-bottom: 5px double black;
+}
+
+main {
+    display: flex;
+}
+
+.homepage-image {
+    border: 2px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(white, yellow);
+    padding: 50px;
+    width: 75%;
+}
+
+.homepage-art {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 49%;
+    text-align: center;
+    height: 100%;
+    padding: 20px;
+    border-right: 2px solid black;
+}
+
+.new-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 20px;
+}

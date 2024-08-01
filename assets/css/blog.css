@@ -1,0 +1,11 @@
+header {
+    text-align: center;
+    border-bottom: 5px double black;
+}
+
+.blog-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
